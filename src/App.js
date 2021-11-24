@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import ClickCounter from './components/useReducercases/higherorderComponents/clickCounter';
-import HoverCounter from './components/useReducercases/higherorderComponents/HoverCounter';
+import ClickCounter from './higherorderComponents/ClickCounter';
+import HoverCounter from './higherorderComponents/HoverCounter';
+
 
 
   
@@ -11,8 +12,9 @@ function App() {
   return (
 <div className="App">
 
-<ClickCounter/>
+  <ClickCounter/>
 <HoverCounter/>
+
 
     </div>
     );
